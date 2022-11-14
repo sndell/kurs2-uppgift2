@@ -1,0 +1,39 @@
+{
+  "educations": [
+    {
+      "name": "Stanford University",
+      "location": "Stanford",
+      "from": "September, 1985",
+      "to": "July, 1989"
+    },
+    {
+      "name": "Harvard University",
+      "location": "Cambridge",
+      "from": "September, 2001",
+      "to": "July, 2005"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "Google",
+      "location": "Stockholm",
+      "title": "Developer",
+      "from": "September, 1887",
+      "to": "August, 1895"
+    },
+    {
+      "name": "Facebook",
+      "location": "Sydney",
+      "title": "Intern",
+      "from": "September, 1936",
+      "to": "August, 1945"
+    },
+    {
+      "name": "McDonalds",
+      "location": "Borås",
+      "title": "Manager",
+      "from": "September, 2020",
+      "to": "August, 2021"
+    }
+  ]
+}

@@ -31,6 +31,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   margin: 0;
 }
@@ -191,9 +192,49 @@ main {
   color: black;
 }
 
-.resume embed {
-  width: 100%;
-  height: calc(100vh - 87px);
+.resume {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resume-info__title {
+  font-weight: 400;
+}
+
+.resume-info__about {
+  padding: 16px 0;
+  font-weight: 300;
+}
+
+.resume-educations {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 2px;
+}
+
+.resume__date {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.resume__location {
+  font-weight: 500;
+}
+
+.resume-jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.resume-job__title {
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 580px) {
