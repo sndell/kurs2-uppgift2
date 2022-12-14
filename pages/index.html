@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style/stylesheet.css" type="text/css" />
+    <script src="../javascript/modal.js" defer></script>
     <title>Uppgift 1</title>
   </head>
   <body>
+    <div class="modal hidden">
+      <div class="modal-content">
+        <p class="modal-content__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quam
+          velit est, soluta dignissimos doloremque in impedit autem, quisquam
+          sequi nisi quis eos reprehenderit possimus! Possimus totam est
+          repudiandae recusandae.
+        </p>
+        <button class="modal-content__close" onclick="toggleModal()">
+          Close
+        </button>
+      </div>
+    </div>
     <div class="container">
       <header>
         <a href="" class="branding">
@@ -35,6 +49,9 @@
               dolores, ipsa quaerat modi error alias, ullam esse? Perspiciatis
               sit est aspernatur similique.
             </p>
+            <button class="info__button" onclick="toggleModal()">
+              More about me
+            </button>
           </div>
         </section>
       </main>
